@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>  </title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="dark-style.css">
+</head>
+<body>
+	<table>
+	<tr>
+	<th class = "h2"><a href="index.html">HOME</a></th>
+	<th><a href="project.html">MENU</a></th>
+	<th class = "h3"><a href="about-me.html">ABOUT</a></th>
+	<th><img src="french.jpg" width="50" height="60"></th>
+	</tr>
+	</table>
+	<p class = "title">MENU</p>
+	<p class = "content">MENU OPTIONS SHOULD BE HERE</p>
+</body>
+</html>

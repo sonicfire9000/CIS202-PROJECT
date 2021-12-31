@@ -1,0 +1,131 @@
+html {	
+	/*background-image: url("../imgs/For project Template empty.png");
+	background-size: cover;*/
+	background-color: #ffbf00;
+	/*font-family: papyrus;*/
+}
+h1{
+	margin:auto;
+	text-align: center;
+}
+hr{
+	width: 50%;
+	color: #f21a05;
+}
+table {
+	margin: auto;
+	border: 4px solid;
+	border-color: #c7898c;
+	background-color: #ecdbd3;
+}
+th{	
+	border: 4px solid;
+	border-color: #c7898c;
+	background-color: #ecdbd3;
+	text-align: center;
+	vertical-align: middle;
+	color:crimson;
+	margin:auto;
+	/*padding-top:50px;*/
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:160px;
+	padding-right:180px;
+	font-size: 32px;
+}
+th.h2{
+	text-align: center;
+	vertical-align: middle;
+	color:crimson;
+	margin:auto;
+	/*padding-top:50px;*/
+	padding-top:10px;
+	padding-left: 11%;
+	padding-right:320px;
+	font-size: 32px;
+}
+th.h3{
+	text-align: center;
+	vertical-align: middle;
+	color:crimson;
+	margin:auto;
+	/*padding-top:50px;*/
+	padding-top:10px;
+	padding-left: 13%;
+	padding-right:320px;
+	font-size: 32px;
+}
+p{
+	color:crimson;
+	text-align: center;
+	vertical-align: middle;
+}
+p.title{
+	border: 4px solid;
+	border-color: #c7898c;
+	background-color: #ecdbd3;
+	font-family: papyrus;
+	color:crimson;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size:40px;
+	margin:auto;
+	width:50%;
+}
+.content{
+	color:crimson;
+	text-align: center;
+	vertical-align: middle;
+	font-size:32px;
+	font-family: papyrus;
+}
+.contents{
+	border: 4px solid;
+	border-color: #c7898c;
+	background-color: #ecdbd3;
+	color:crimson;
+	text-align: center;
+	vertical-align: middle;
+	font-size:24px;
+	font-family: papyrus;
+	width:50%;
+	margin: auto;
+}
+.menu_content{
+	font-family:papyrus;
+	color:crimson;
+	border: 4px solid #c7898c;
+	width:50%;
+}
+.items{
+  width: 50%;
+  height: auto;
+  margin-left:20%;
+}
+.logo{
+  width: 20%;
+  height: auto;
+  
+}
+.menu{
+	border: 4px solid;
+	border-color: #c7898c;
+	background-color: #ecdbd3;
+	padding:25px;
+	margin-top: 2%;
+	margin-left:30%;
+	width:40%;
+	height:30%;
+	border: 5px solid #a41009
+	border-collapse: collapse;
+}
+#CartCount {
+    font-size: 12px;
+    background: #c7898c;
+    color: #ffbf00;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px; 
+}
