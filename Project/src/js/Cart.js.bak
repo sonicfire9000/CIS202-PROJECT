@@ -10,13 +10,11 @@ function onClickBurger() {
   clicks += 1;
   calories += 375;
   document.getElementById("clicks").innerHTML = clicks;
-  document.getElementById("calories").innerHTML = calories;
 };
 function onClick() {
   clicks += 1;
   calories += 0;
   document.getElementById("clicks").innerHTML = clicks;
-  document.getElementById("calories").innerHTML = calories;
 };
 function onClickSpaghetti() {
   clicks += 1;

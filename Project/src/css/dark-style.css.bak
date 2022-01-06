@@ -1,7 +1,7 @@
 html {	
-	/*background-image: url("../imgs/For project Template empty.png");
-	background-size: cover;*/
-	background-color: #ffbf00;
+	background-image: url("../imgs/For project Template empty.png");
+	background-size: cover;
+	background-position:left-center;
 	/*font-family: papyrus;*/
 }
 h1{
@@ -82,8 +82,6 @@ p.title{
 	font-family: papyrus;
 }
 .contents{
-	margin-top: 20px;
-	margin-bottom: 20px;
 	border: 4px solid;
 	border-color: #c7898c;
 	background-color: #ecdbd3;
@@ -93,7 +91,7 @@ p.title{
 	font-size:24px;
 	font-family: papyrus;
 	width:50%;
-	;
+	margin: auto;
 }
 .menu_content{
 	font-family:papyrus;

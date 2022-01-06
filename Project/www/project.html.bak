@@ -17,13 +17,13 @@
 	<span id='CartCount'> <a id="clicks">0</a></span></td>
 	</tr>
 	</table>
-	<p class = "title" style = "margin-top: 10px">MENU</p>
+	<p class = "title" style = "margin-top: 20px">MENU</p>
 	<p class = "contents" style = "margin-top: 20px; margin-bottom: 20px;">just a simple menu</p>
-	
+	<p style = "margin-top: 20px; margin-bottom: 20px;">caloric intake: <a id ="calories"> 0</p>
 	<table class="menu">
 	<tr>
 	<td rowspan="3" class="items"> <img class="items" src="..\src\imgs\French.jpg"></td>
-	<td class="menu_content">French fries 6sr</td>
+	<td class="menu_content">French fries 6sr, caloric intake: 365</td>
 	</tr>
 
 	<tr>
@@ -31,7 +31,7 @@
 	</tr>
 
 	<tr>
-	<td class="menu_content"><button onClick="onClick()" >add to cart</button></td>
+	<td class="menu_content"><button onClick="onClickFries()" >add to cart</button></td>
 	</tr>
 
 	</table>
@@ -39,7 +39,7 @@
 	<table class="menu">
 	<tr>
 	<td rowspan="3" class="items"> <img class="items" src="..\src\imgs\lasagna.jpg"></td>
-	<td class="menu_content">Lasagna 20sr</td>
+	<td class="menu_content">Lasagna 20sr, caloric intake: 408</td>
 	</tr>
 
 	<tr>
@@ -47,7 +47,7 @@
 	</tr>
 
 	<tr>
-	<td class="menu_content"><button onClick="onClick()" >add to cart</button></td>
+	<td class="menu_content"><button onClick="onClickLasagna()" >add to cart</button></td>
 	</tr>
 
 	</table>
@@ -55,7 +55,7 @@
 	<table class="menu">
 	<tr>
 	<td rowspan="3" class="items"> <img class="items" src="..\src\imgs\burger.jpg"></td>
-	<td class="menu_content">Beef Burger 18sr</td>
+	<td class="menu_content">Beef Burger 18sr, caloric intake: 375</td>
 	</tr>
 
 	<tr>
@@ -63,7 +63,7 @@
 	</tr>
 
 	<tr>
-	<td class="menu_content"><button onClick="onClick()" >add to cart</button></td>
+	<td class="menu_content"><button onClick="onClickBurger()" >add to cart</button></td>
 	</tr>
 
 	</table>
@@ -71,7 +71,7 @@
 	<table class="menu">
 	<tr>
 	<td rowspan="3" class="items"> <img class="items" src="..\src\imgs\spaghetti.jpg"></td>
-	<td class="menu_content">Spaghetti 12sr</td>
+	<td class="menu_content">Spaghetti 12sr, caloric intake: 212</td>
 	</tr>
 
 	<tr>
@@ -79,7 +79,7 @@
 	</tr>
 
 	<tr>
-	<td class="menu_content"><button onClick="onClick()" >add to cart</button></td>
+	<td class="menu_content"><button onClick="onClickSpaghetti()" >add to cart</button></td>
 	</tr>
 
 	</table>
@@ -103,7 +103,7 @@
 	<table class="menu">
 	<tr>
 	<td rowspan="3" class="items"> <img class="items" src="..\src\imgs\pepsi.jpg"></td>
-	<td class="menu_content">pepsi 4sr</td>
+	<td class="menu_content">pepsi 4sr, caloric intake: 225</td>
 	</tr>
 
 	<tr>
@@ -111,7 +111,7 @@
 	</tr>
 
 	<tr>
-	<td class="menu_content"><button onClick="onClick()" >add to cart</button></td>
+	<td class="menu_content"><button onClick="onClickPepsi()" >add to cart</button></td>
 	</tr>
 
 	</table>
